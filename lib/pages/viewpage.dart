@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../model/model.dart';
+import '../service/service.dart';
+
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
 
