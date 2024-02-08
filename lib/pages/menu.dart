@@ -1,6 +1,8 @@
 import 'package:covidapp/pages/viewpage.dart';
 import 'package:flutter/material.dart';
 
+import 'addpage.dart';
+
 class MenuApp extends StatelessWidget {
   const MenuApp({super.key});
 
