@@ -1,5 +1,6 @@
-import 'package:courses/service.dart';
 import 'package:flutter/material.dart';
+
+import '../service/service.dart';
 
 class AddPage extends StatefulWidget {
   const AddPage({super.key});

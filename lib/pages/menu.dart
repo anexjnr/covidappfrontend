@@ -1,3 +1,4 @@
+import 'package:covidapp/pages/search.dart';
 import 'package:covidapp/pages/viewpage.dart';
 import 'package:flutter/material.dart';
 
@@ -33,10 +34,15 @@ class MenuApp extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            ElevatedButton(onPressed: ()
-            {
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>SearchPage()));
-            }, child: Text("Search Patients")),
+            SizedBox(
+              height: 50,
+              width: 400,
+              child: ElevatedButton(onPressed: (
+                  )
+              {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>SearchPage()));
+              }, child: Text("Search")),
+            ),
           ],
         ),
       ),
