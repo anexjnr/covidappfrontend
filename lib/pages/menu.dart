@@ -1,3 +1,4 @@
+import 'package:covidapp/pages/viewpage.dart';
 import 'package:flutter/material.dart';
 
 class MenuApp extends StatelessWidget {
